@@ -1,11 +1,12 @@
 import React from 'react'
-import {BsPerson} from 'react'
+import {BsPerson} from 'react-icons/bs'
+import {BiSearch} from 'react-icons/bi'
 
 const Navbar=()=>{
     return (
         <div>
             <div>
-                <h1>BEACHES.</h1>
+                <h1 className='flex justify-between items-center h-20'>BEACHES.</h1>
             </div>
             <ul>
                 <li>Home</li>
@@ -16,6 +17,10 @@ const Navbar=()=>{
 
                 
             </ul>
+            <div className='flex'>
+                <BiSearch />
+                <BsPerson />
+            </div>
          
         </div>
     )
