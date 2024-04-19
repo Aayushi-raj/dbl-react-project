@@ -14,7 +14,7 @@
 }
 
 
-@tailwind base ;
+@tailwind base;
   body {
     @apply font-[Poppins];
   }
