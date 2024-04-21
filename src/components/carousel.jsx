@@ -14,7 +14,7 @@ const sliderData = [
 ];
 
 const carousel = () => {
-  const [slide, setSlide] = useState(0);
+  const [slide, setSlide] = UseState(0);
   const length = sliderData.length;
   // console.log(length)
 

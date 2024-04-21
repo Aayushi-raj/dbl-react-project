@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaPinterest,
   FaYoutube,
+  FaGithub,
 } from 'react-icons/fa';
 
 const Footer = () => {
@@ -19,6 +20,7 @@ const Footer = () => {
             <FaYoutube className='icon' />
             <FaPinterest className='icon' />
             <FaInstagram className='icon' />
+            <FaGithub className='icon' />
           </div>
         </div>
         <div className='flex justify-between'>
@@ -36,6 +38,7 @@ const Footer = () => {
             <li>VIEW</li>
             <li>BOOK</li>
           </ul>
+          <div>Made by aayushi</div>
         </div>
       </div>
     </div>
