@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 :root {
-  --primary-dark: #5651e5;
-  --primary-light: #709dff;
+  --primary-dark: #505050;
+  --primary-light: #afafaf;
 }
 
 .icon {
@@ -24,7 +24,7 @@
   }
 
   h1 {
-    @apply text-3xl md:text-4xl font-bold text-red-700;
+    @apply text-3xl md:text-4xl font-bold text-blue-100;
   }
 
   h2 {
@@ -40,3 +40,6 @@
   .icon {
     @apply text-2xl cursor-pointer;
   }
+
+  
+  
